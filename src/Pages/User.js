@@ -41,7 +41,7 @@ const User = ({ users, setUsers }) => {
 
     const deleteAll = () => {
         if (selectAll) {
-            selectAll(false)
+            setSelectAll(false)
             setUsers([])
         }
     }

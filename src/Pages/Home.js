@@ -18,7 +18,6 @@ const Home = ({ users, setUsers }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(error)
         if (!error) {
             setUsers([...users, ...inputFields])
             navigate('/user')
@@ -34,9 +33,6 @@ const Home = ({ users, setUsers }) => {
         }
     }
 
-    // const onfileLoad = (data) => {
-
-    // }
 
 
 
